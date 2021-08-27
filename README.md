@@ -127,6 +127,20 @@
 ```jsx
 20 - "20" // returns 0 
 ```
+- Another interesting example of type coercion in JS is with boolean values
+
+```jsx
+false - true // returns -1
+```
+
+- This is because in JS `false` is equal to 0 and `true` is equal to 1
+- Therefore the above code code be read as:
+
+```jsx
+0 - 1 // returns - 1
+```
+
+
 
 [https://medium.com/developers-arena/type-coercion-in-javascript-c973b369b272](https://medium.com/developers-arena/type-coercion-in-javascript-c973b369b272)
 

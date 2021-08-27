@@ -10,3 +10,6 @@
 // console.log(2 + 5 + "a")
 
 ////////// - operator ////////////
+
+// console.log(20 - 20)
+// console.log(20 - "20")
