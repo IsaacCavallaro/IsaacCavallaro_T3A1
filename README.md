@@ -1,31 +1,50 @@
+# TOC
+
+[Question 1](#q1)
+[Question 2](#q2)
+[Question 3](#q3)
+[Question 4](#q4)
+[Question 5](#q5)
+[Question 6](#q6)
+[Question 7](#q7)
+[Question 8](#q8)
+[Question 9](#q9)
+[Question 10](#q10)
+[Question 11](#q11)
+[Question 12](#q12)
+[Question 12](#q13)
+
+
+
+<a name="q1"/></a>
 # Q1: Provide an overview and description of a standard source control process for a large project
 
 ---
-
+<a name="q2"/></a>
 # Q2: What are the most important aspects of quality software?
 
 ---
-
+<a name="q3"/></a>
 # Q3: Outline a standard high level structure for a MERN stack application and explain the components
 
 ---
-
+<a name="q4"/></a>
 # Q4: A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
 ---
-
+<a name="q5"/></a>
 # Q5: With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges
 
 ---
-
+<a name="q6"/></a>
 # Q6: With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
 
 ---
-
+<a name="q7"/></a>
 # Q7: Explain control flow, using an example from the JavaScript programming language
 
 ---
-
+<a name="q8"/></a>
 # Q8: Explain type coercion, using examples from the JavaScript programming language
 
 ## What is type coercion?
@@ -107,7 +126,7 @@
 [https://dev.to/promhize/what-you-need-to-know-about-javascripts-implicit-coercion-e23](https://dev.to/promhize/what-you-need-to-know-about-javascripts-implicit-coercion-e23)
 
 ---
-
+<a name="q9"/></a>
 # Q9: Explain data types, using examples from the JavaScript programming language
 
 ---
@@ -206,7 +225,7 @@ exampleVaribale = 123456;
 ![DataTypesList](./images/dataTypes.png)
 
 ---
-
+<a name="q10"/></a>
 # Q10: Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
 
 ---
@@ -554,17 +573,17 @@ console.log(names) // [ 'ben', 'tim', 'sam' ]
 console.log(names.splice(1, 1, 'fred')) // [ 'tim' ]
 console.log(names) // [ 'ben', 'fred', 'sam' ]
 ```
-
+<a name="q11"/></a>
 # Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 
 ---
-
+<a name="q12"/></a>
 # Q12: Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
 
 [https://docs.npmjs.com/cli/v7/configuring-npm/package-json](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 
 ---
-
+<a name="q13"/></a>
 # Q13: For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrate your ability to recognise and identify functions, ranges and classes
 
 ## Original Code:
