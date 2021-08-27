@@ -203,7 +203,7 @@ exampleVaribale = 123456;
 
 [https://www.programiz.com/javascript/data-types](https://www.programiz.com/javascript/data-types)
 
-![DataTypesList](./images/DataTypes.png)
+![DataTypesList](./images/dataTypes.png)
 
 ---
 
