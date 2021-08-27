@@ -482,7 +482,7 @@ ben tim sam
 
 - The `splice()` method changes the elements of an array by:
     - Adding new elements in place.
-    - Removing or replacing existing elements and/or
+    - Removing or replacing existing elements.
 
 ---
 
@@ -588,6 +588,47 @@ console.log(names) // [ 'ben', 'tim', 'sam' ]
 console.log(names.splice(1, 1, 'fred')) // [ 'tim' ]
 console.log(names) // [ 'ben', 'fred', 'sam' ]
 ```
+
+## `.slice()`
+
+- The `.slice()` method will copy a specified part of an array and return the copied part.
+- Importantly. `.slice()` will not change the original array so it is considered non-destructive.
+
+---
+
+### Example One: `.slice()`
+
+- Use the `.slice()` method to return an array that has been sliced from index 0 to index 2
+
+```jsx
+let numbers = [1, 2, 3]
+console.log(numbers.slice(0, 2))
+```
+
+- This will return in the console:
+
+```jsx
+[1,2]
+```
+
+- As stated above, `.slice()` is non-destructive so if we log the original `numbers` array, it will still have the same items in it:
+
+```jsx
+let numbers = [1, 2, 3]
+console.log(numbers.slice(0, 2)) // [1,2]
+console.log(numbers)// [1,2,3]
+```
+
+- With this in mind, if we want to do something with the new array, we will need to assign it to a new variable.
+
+```jsx
+let numbers = [1, 2, 3]
+let newNumbers = numbers.slice(0, 2)
+console.log(newNumbers) // [1,2]
+console.log(numbers) // [1,2,3]
+```
+
+
 <a name="q11"/></a>
 # Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 

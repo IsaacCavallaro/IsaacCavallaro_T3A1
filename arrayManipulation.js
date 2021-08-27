@@ -70,5 +70,29 @@
 // console.log(newNames) 
 // console.log(names)
 
+////////////////--splice--ExampleTwo--//////////////////////
 
+// let names = ['ben', 'tim', 'sam']
 
+// console.log(names.splice(1, 1, 'fred'))
+
+///////////////////////////////////////////////////////////
+
+// let names = ['ben', 'tim', 'sam']
+
+// console.log(names) 
+// console.log(names.splice(1, 1, 'fred')) 
+// console.log(names) 
+
+////////////////--slice--ExampleOne--//////////////////////
+
+// let numbers = [1, 2, 3]
+// console.log(numbers.slice(0, 2))
+// console.log(numbers) 
+
+///////////////
+
+// let numbers = [1, 2, 3]
+// let newNumbers = numbers.slice(0, 2)
+// console.log(newNumbers) 
+// console.log(numbers)
