@@ -1,30 +1,30 @@
 # TOC
 
-[Question 1](#q1)
+[Question 1: Source control for large project](#q1)
 
-[Question 2](#q2)
+[Question 2: Quality software](#q2)
 
-[Question 3](#q3)
+[Question 3: MERN stack](#q3)
 
-[Question 4](#q4)
+[Question 4: Mmall business project](#q4)
 
-[Question 5](#q5)
+[Question 5: Project reflection, required skills](#q5)
 
-[Question 6](#q6)
+[Question 6: Project reflection, changes ](#q6)
 
-[Question 7](#q7)
+[Question 7: Control flow](#q7)
 
-[Question 8](#q8)
+[Question 8: Type coercion ](#q8)
 
-[Question 9](#q9)
+[Question 9: Data types](#q9)
 
-[Question 10](#q10)
+[Question 10: Array Manipulation](#q10)
 
-[Question 11](#q11)
+[Question 11: Object Manipulation](#q11)
 
-[Question 12](#q12)
+[Question 12: JSON Manipulation](#q12)
 
-[Question 13](#q13)
+[Question 13: Code snippet commets](#q13)
 
 ---
 
@@ -239,6 +239,9 @@ exampleVaribale = 123456;
 ---
 <a name="q10"/></a>
 # Q10: Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+### Link to code for array manipulation:
+- Click [here](https://github.com/IsaacCavallaro/IsaacCavallaro_T3A1/blob/main/arrayManipulation.js) for the array manipulation code.
 
 ---
 
