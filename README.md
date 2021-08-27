@@ -1,20 +1,32 @@
 # TOC
 
 [Question 1](#q1)
+
 [Question 2](#q2)
+
 [Question 3](#q3)
+
 [Question 4](#q4)
+
 [Question 5](#q5)
+
 [Question 6](#q6)
+
 [Question 7](#q7)
+
 [Question 8](#q8)
+
 [Question 9](#q9)
+
 [Question 10](#q10)
+
 [Question 11](#q11)
+
 [Question 12](#q12)
-[Question 12](#q13)
 
+[Question 13](#q13)
 
+---
 
 <a name="q1"/></a>
 # Q1: Provide an overview and description of a standard source control process for a large project
