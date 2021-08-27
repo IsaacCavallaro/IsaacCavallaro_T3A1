@@ -1,0 +1,74 @@
+////////////////--toString-ExampleOne--//////////////////////
+
+// let names = ['ben', 'tim', 'sam']
+
+// console.log(names.toString())
+
+// let newNames = names.toString()
+// console.log(typeof newNames)
+
+// console.log(newNames) 
+// console.log(names)
+
+////////////////--toString-ExampleTwo--//////////////////////
+
+// let numbers = [1, 2, 3];
+
+// console.log(numbers.toString())
+
+// let newNumbers = numbers.toString()
+// console.log(typeof newNumbers)
+
+// console.log(newNumbers) 
+// console.log(numbers)
+
+
+////////////////--join--ExampleOne--//////////////////////
+
+// let names = ['ben', 'tim', 'sam']
+
+// console.log(names.join('$'))
+
+// let newNames = names.join('$')
+// console.log(typeof newNames)
+
+///////////////////////////////////////////////////////////
+
+// let names = ['ben', 'tim', 'sam']
+
+// console.log(names) 
+
+// let newNames = names.join('$')
+
+// console.log(newNames) 
+// console.log(names) 
+
+////////////////--join--ExampleTwo--//////////////////////
+
+// let names = ['ben', 'tim', 'sam']
+
+// console.log(names.join(' '))
+
+////////////////--splice--ExampleOne--//////////////////////
+
+// let names = ['ben', 'tim', 'sam']
+
+// console.log(names.splice(1, 0, 'fred'))
+
+// names.splice(1, 0, 'fred')
+
+// console.log(names)
+
+///////////////////////////////////////////////////////////
+
+// let names = ['ben', 'tim', 'sam']
+
+// console.log(names) 
+
+// newNames = names.splice(1, 0, 'fred')
+
+// console.log(newNames) 
+// console.log(names)
+
+
+
