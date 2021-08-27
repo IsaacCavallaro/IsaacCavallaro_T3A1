@@ -96,3 +96,18 @@
 // let newNumbers = numbers.slice(0, 2)
 // console.log(newNumbers) 
 // console.log(numbers)
+
+////////////////--filter--ExampleOne--//////////////////////
+
+// let names = ['ben', 'tim', 'sam', 'antony', 'deborah', 'emma', 'leonard']
+
+// let filterNames = names.filter(name => name.length == 3);
+
+// console.log(filterNames)
+
+////////////////
+
+// let names = ['ben', 'tim', 'sam', 'antony', 'deborah', 'emma', 'leonard']
+// console.log(names.filter(name => name.length == 3));
+// console.log(names)
+

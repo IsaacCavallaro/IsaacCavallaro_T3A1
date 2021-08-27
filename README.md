@@ -628,6 +628,39 @@ console.log(newNumbers) // [1,2]
 console.log(numbers) // [1,2,3]
 ```
 
+## `.filter()`
+
+- According to the MDN web docs `.filter()` "creates a new array with all elements that pass the test implemented by the provided function".
+
+---
+
+### Example One: `.filter()`
+
+- Use the `.filter` function to return an array that only contains items where the length is equal to 3.
+
+```jsx
+let names = ['ben', 'tim', 'sam', 'antony', 'deborah', 'emma', 'leonard']
+
+let filterNames = names.filter(name => name.length == 3);
+
+console.log(filterNames) 
+```
+
+- This will return in the console:
+
+```jsx
+[ 'ben', 'tim', 'sam' ]
+```
+
+- We can log the `names` array after performing `.filter()` to see if our array if it has been manipulated.
+
+```jsx
+let names = ['ben', 'tim', 'sam', 'antony', 'deborah', 'emma', 'leonard']
+console.log(names.filter(name => name.length == 3)); // [ 'ben', 'tim', 'sam' ]
+console.log(names) // ['ben', 'tim', 'sam', 'antony', 'deborah', 'emma', 'leonard']
+```
+
+- Therefore, we can see that `.filter()` is non-destructive.
 
 <a name="q11"/></a>
 # Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
