@@ -10,3 +10,8 @@
 ////////--boolean--/////////
 // console.log(typeof true)
 // console.log(typeof false)
+
+
+////////--Big Int--/////////
+// console.log(typeof 1n)
+// console.log(typeof -1n)

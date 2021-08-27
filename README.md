@@ -145,6 +145,8 @@
 # Q9: Explain data types, using examples from the JavaScript programming language
 
 ---
+## Link to data types code:
+- Click [here](https://github.com/IsaacCavallaro/IsaacCavallaro_T3A1/blob/main/dataTypes.js) for the data types code.
 
 - A **value** in JavaScript is always of a **certain data type**. In JavaScript, there are 8 different data types:
 
