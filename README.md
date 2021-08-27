@@ -135,7 +135,7 @@
 
 ---
 
-![DataTypesImage](primDataTypes.png)
+![DataTypesImage](./images/primDataTypes.png)
 
 ---
 
