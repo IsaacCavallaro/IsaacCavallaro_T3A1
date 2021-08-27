@@ -59,6 +59,9 @@
 <a name="q8"/></a>
 # Q8: Explain type coercion, using examples from the JavaScript programming language
 
+## Link to type coercion Code
+- Click [here](https://github.com/IsaacCavallaro/IsaacCavallaro_T3A1/blob/main/typeCoercion.js) for the type cohersion code. 
+
 ## What is type coercion?
 
 - According to MDN Web Docs "Type coercion is the automatic or implicit conversion of values from one data type to another".
