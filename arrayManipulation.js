@@ -111,3 +111,22 @@
 // console.log(names.filter(name => name.length == 3));
 // console.log(names)
 
+
+////////////////--map--ExampleOne--//////////////////////
+
+// let numbers = [1, 2, 3]
+
+// let newNumbers = numbers.map(x => x * 2)
+
+// console.log(newNumbers)
+
+/////////
+
+// let numbers = [1, 2, 3]
+
+// console.log(numbers.map(x => x * 2))
+// console.log(numbers)
+
+////////////////--map--ExampleTwo--//////////////////////
+// let names = ['ben', 'tim', 'sam', 'antony', 'deborah', 'emma', 'leonard']
+// console.log(names.map(name => name.toUpperCase()))

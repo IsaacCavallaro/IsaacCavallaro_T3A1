@@ -652,7 +652,7 @@ console.log(filterNames)
 [ 'ben', 'tim', 'sam' ]
 ```
 
-- We can log the `names` array after performing `.filter()` to see if our array if it has been manipulated.
+- We can log the `names` array after performing `.filter()` to see if our array has been manipulated.
 
 ```jsx
 let names = ['ben', 'tim', 'sam', 'antony', 'deborah', 'emma', 'leonard']
