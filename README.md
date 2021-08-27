@@ -135,7 +135,7 @@
 
 ---
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f81b6471-f0e4-420b-876c-8fee1d0a625b/Untitled.png)
+![DataTypesImage](primDataTypes.png)
 
 ---
 
