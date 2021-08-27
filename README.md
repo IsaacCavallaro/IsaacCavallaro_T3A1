@@ -662,6 +662,100 @@ console.log(names) // ['ben', 'tim', 'sam', 'antony', 'deborah', 'emma', 'leonar
 
 - Therefore, we can see that `.filter()` is non-destructive.
 
+## `.map()`
+
+- According to the MDN docs "The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array".
+
+---
+
+### Example One: `.map()`
+
+- User the `.map()` function to return a new array which multiplies each item in the array by 2.
+
+```jsx
+let numbers = [1, 2, 3]
+```
+
+- Perform `.map()` on the numbers array
+
+```jsx
+numbers.map
+```
+
+- set the variable of each item in the array as `x` and multiple each item by 2
+
+```jsx
+numbers.map(x => x * 2)
+```
+
+- Assign the result to a new variable `newNumbers`
+
+```jsx
+let newNumbers = numbers.map(x => x * 2)
+```
+
+- Log `newNumbers`
+
+```jsx
+console.log(newNumbers)
+```
+
+- This will return in the console
+
+```jsx
+[2, 4, 6]
+```
+
+- To check that we have our original array intact, we can perform:
+
+```jsx
+let numbers = [1, 2, 3]
+
+console.log(numbers.map(x => x * 2)) // [2, 4, 6]
+console.log(numbers) // [1, 2, 3]
+```
+
+- Therefore, `.map()` is non-destructive.
+
+---
+
+## Example Two: `.map()`
+
+- User the `.map()` function to return a new array coverts all the items in the array to Upper Case.
+
+```jsx
+let names = ['ben', 'tim', 'sam', 'antony', 'deborah', 'emma', 'leonard']
+```
+
+- Perform `.map()` on the `names` array.
+
+```jsx
+names.map()
+```
+
+- set variable of each item in the array as name and uses the `.toUpperCase()` function on each item.
+
+```jsx
+names.map(name => name.toUpperCase())
+```
+
+- Log to the console:
+
+```jsx
+console.log(names.map(name => name.toUpperCase()))
+```
+
+- This will return in the console:
+
+```jsx
+[
+  'BEN',     'TIM',
+  'SAM',     'ANTONY',
+  'DEBORAH', 'EMMA',
+  'LEONARD'
+]
+```
+
 <a name="q11"/></a>
 # Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 
