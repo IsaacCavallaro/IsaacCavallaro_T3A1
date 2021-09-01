@@ -1,3 +1,6 @@
+// playing around with question 13 code
+
+
 let makes = ["Ford", "Holden", "Toyota"]
 let models = Array.from(new Array(40), (x,i) => i + 1980)
 
