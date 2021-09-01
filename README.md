@@ -123,6 +123,11 @@ else {
 
 - Therefore, logging "a is less than 10".
 
+## if else Flowchart:
+
+
+![DataTypesImage](./images/ifElseFlowchart.png)
+
 --
 
 ## Control flow with `loops`
@@ -205,6 +210,9 @@ for (let i=0; i<n; i++) {
     } 
 ```
 
+## `for loop` Flowchart:
+
+![DataTypesImage](./images/forLoopFlowchart.png)
 
 
 ---
