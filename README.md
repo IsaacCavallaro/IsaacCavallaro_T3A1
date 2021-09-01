@@ -101,6 +101,110 @@ if (a < 10) {
 
 ## Basic `if else` statement example two:
 
+- Changing the condition
+
+```jsx
+let a = 15
+
+if (a > 10) {
+    console.log("a is greater than 10")
+} else {
+    console.log("a is less than 10")
+}
+```
+
+- In the above example, the `if` condition is false which means the code inside the `if` block will be skipped and the code inside the `else` block will run.
+
+```jsx
+else {
+    console.log("a is less than 10")
+}
+```
+
+- Therefore, logging "a is less than 10".
+
+--
+
+## Control flow with `loops`
+
+- Javascript includes a variety of loops that allows for steps to be performed repeatedly. Each of these `loops` are example of instructions or statements which change the control flow of our code from simply being read from top to bottom.
+
+---
+
+## `for loop`
+
+# Example one:
+
+- This will log **'Hello World'** to the console **10 times.**
+
+```jsx
+function loopPractice() {
+    for (let i=0; i<10; i++) {
+        console.log('Hello World');
+    } 
+}
+```
+
+---
+
+## Breakdown of code:
+
+- Declare function `loopPractice`
+
+```jsx
+function loopPractice() {
+
+}
+```
+
+---
+
+- Set `for loop` with **three statements** inside function:
+
+```jsx
+function loopPractice() {
+	for (let i=0; i<10; i++) {
+        
+    }
+}
+```
+
+---
+
+- **Statement 1** declares a variable `i` and sets it to the input 0.
+
+```jsx
+let i=0;
+```
+
+---
+
+- **Statement 2** defines the condition for executing the code block
+
+*while `i` is less than 10*
+
+```jsx
+i<10
+```
+
+---
+
+- **Statement 3** uses the increment operator (++) to add 1 to `i`  after the code block has been executed (every loop).
+
+```jsx
+i++
+```
+
+---
+
+- Within each loop iteration, log 'Hello World' to the console:
+
+```jsx
+for (let i=0; i<n; i++) {
+        console.log('Hello World');
+    } 
+```
+
 
 
 ---
