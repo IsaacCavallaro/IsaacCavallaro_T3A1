@@ -220,7 +220,7 @@ for (let i=0; i<n; i++) {
 ## Control flow example from a Codewars kata.
 
 - Click [here](https://www.codewars.com/kata/53daa9e5af55c184db00025f) for a link to the codewars kata:
-- Click [here]() for the solution to the code.
+- Click [here](https://github.com/IsaacCavallaro/IsaacCavallaro_T3A1/blob/main/prime.js) for the solution to the code.
 - This solution uses both a `for` loop and `if` statement which affect the control flow.
 
 ## Problem to solve:
