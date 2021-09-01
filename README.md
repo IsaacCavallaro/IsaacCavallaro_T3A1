@@ -55,6 +55,54 @@
 <a name="q7"/></a>
 # Q7: Explain control flow, using an example from the JavaScript programming language
 
+
+- According to the MDN docs control flow "is the order in which the computer executes statements in a script." In JavaScript, unless there is instructions or statements which change the control flow, the code will be read from the first line until the last line. Therefore, it is important to look at the program structure and how this changes the order of execution.
+
+- **Conditional statements** and **loops** are examples of instructions or statements which change the control flow. A common conditional statement is the `if` statement which sets a condition and only executes the block of code if the condition is true.
+
+## Basic `if else` statement example one:
+
+```jsx
+let a = 15
+
+if (a < 10) {
+    console.log("a is greater than 10")
+} else {
+    console.log("a is less than 10")
+}
+```
+
+---
+
+- Looking at the example above, we first set the variable `a` to the value of 15.
+
+```jsx
+let a = 15
+```
+
+- Next, we declare the `if` statement with our condition inside parentheses.
+
+```jsx
+if (a < 10)
+```
+
+- As stated above, unless there is instructions or statements which change the control flow, the code will be read from the first line until the last line. This condition is an example of an instruction or statement which will affect the control flow in Javascript.
+- In this example, the condition is true, `a` is greater than 10, therefore, Javascript will run the `if` block and log "a is greater than 10"
+
+```jsx
+if (a < 10) {
+    console.log("a is greater than 10")
+}
+```
+
+- The `else` statement will only run when the `if` condition is false. In this example, the `else` statement will not run as the `if` condition was true.
+
+---
+
+## Basic `if else` statement example two:
+
+
+
 ---
 <a name="q8"/></a>
 # Q8: Explain type coercion, using examples from the JavaScript programming language
