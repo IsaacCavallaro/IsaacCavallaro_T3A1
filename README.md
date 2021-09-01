@@ -478,6 +478,53 @@ exampleVaribale = 123456;
 
 ## Number:
 
+- The Number data type includes:
+    - Any positive integer
+    - Any negative integer
+    - Decimals/floating point
+
+---
+
+- In addition to the above mentioned numbers, there are also "special numeric values" which belong to the number data type.
+
+- Infinity (this can be viewed in the console with the below code):
+
+```jsx
+console.log(Infinity)                 // Infinity
+console.log(Number.POSITIVE_INFINITY) // Infinity
+console.log(Math.pow(2,1024))         // Infinity
+console.log(1.8e+308)                 // Infinity
+console.log(1/0)                      // Infinity
+```
+
+- -Infinity (this can be viewed in the console with the below code):
+
+```jsx
+console.log(-Infinity)                 // -Infinity
+console.log(Number.NEGATIVE_INFINITY)  // -Infinity
+console.log(-1*Math.pow(2,1024))       // -Infinity
+console.log(-1.8e+308)                 // -Infinity
+console.log(1/-0)                      // -Infinity
+```
+
+- NaN (Not a number)
+
+---
+
+- Importantly, the “number” type cannot represent integer values larger than 9007199254740991. (This can be viewed in the console with the following command):
+
+```jsx
+console.log(Number.MAX_SAFE_INTEGER)    //9007199254740991
+```
+
+---
+
+- Similarly, Javascript cannot represent integer values less than -9007199254740991.
+
+```jsx
+console.log(Number.MIN_SAFE_INTEGER)    //-9007199254740991
+```
+
 [https://blog.devgenius.io/what-are-the-eight-data-types-of-javascript-3819b38c8e53](https://blog.devgenius.io/what-are-the-eight-data-types-of-javascript-3819b38c8e53)
 
 [https://javascript.info/types](https://javascript.info/types)
