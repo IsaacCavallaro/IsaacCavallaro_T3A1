@@ -487,7 +487,7 @@ exampleVaribale = 123456;
 
 - In addition to the above mentioned numbers, there are also "special numeric values" which belong to the number data type.
 
-- Infinity (this can be viewed in the console with the below code):
+- **Infinity** (this can be viewed in the console with the below code):
 
 ```jsx
 console.log(Infinity)                 // Infinity
@@ -497,7 +497,7 @@ console.log(1.8e+308)                 // Infinity
 console.log(1/0)                      // Infinity
 ```
 
-- -Infinity (this can be viewed in the console with the below code):
+- **-Infinity** (this can be viewed in the console with the below code):
 
 ```jsx
 console.log(-Infinity)                 // -Infinity
@@ -507,7 +507,12 @@ console.log(-1.8e+308)                 // -Infinity
 console.log(1/-0)                      // -Infinity
 ```
 
-- NaN (Not a number)
+- **NaN** (Not a number)
+
+```jsx
+console.log(isNaN("hello")) //true       
+console.log(isNaN("7"))     //false
+``` 
 
 ---
 
@@ -1055,6 +1060,153 @@ console.log(names.map(name => name.toUpperCase()))
 
 <a name="q11"/></a>
 # Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+## `for in` loop with Objects - Example One:
+
+---
+
+- We can use the `for in` loop to iterate over an object.
+- If we have an object called **user** with three properties:
+    - name
+    - age
+    - member
+
+```jsx
+let user = {
+    name: "Isaac",
+    age: 31,
+    member: true
+  };
+```
+
+---
+
+- We can loop over the user object:
+
+```jsx
+let user = {
+    name: "Isaac",
+    age: 31,
+    member: true
+  };
+  
+  for (let key in user) {
+    console.log(key)
+    console.log(user[key])
+  }
+```
+
+- This will return in the console
+
+```bash
+name
+Isaac
+age
+31
+member
+true
+```
+
+---
+
+- If we want to return this a little more cleanly, we can use string interpolation with backtics
+
+```jsx
+for (let key in user) {
+    console.log(`${key}: ${user[key]}`)
+  }
+```
+
+- This will return in the console:
+
+```bash
+name: Isaac
+age: 31
+member: true
+```
+
+---
+
+## `for in` loop with Objects - Example Two:
+
+- Similarly, we can use the `for in` loop to sum the total all the values within an object.
+
+```jsx
+let ages = {
+    Ben: 20,
+    Sam: 16,
+    Matt: 13
+  };
+  
+  let sum = 0;
+  for (let key in ages) {
+    sum += ages[key];
+  }
+
+console.log(sum) // 49
+```
+
+---
+
+- Here we have an object **ages** with three properties:
+    - Ben
+    - Sam
+    - Matt
+
+```jsx
+let ages = {
+    Ben: 20,
+    Sam: 16,
+    Matt: 13
+  };
+```
+
+- Each of these properties are given a number representing their age.
+
+---
+
+- Before creating the `for in` loop, we set a variable `sum` to 0 which will store the total.
+
+```jsx
+let ages = {
+    Ben: 20,
+    Sam: 16,
+    Matt: 13
+  };
+  
+  let sum = 0;
+```
+
+---
+
+- We then set our `for in` loop:
+    - Within the condition we declare a variable `key` which represents the keys or properties within the **ages** object
+
+```jsx
+for (let key in ages) {
+    
+  }
+```
+
+---
+
+- Within the `for in` loop block, we grab the `key` variable from our **ages** object and add it to the `sum` variable.
+
+```jsx
+for (let key in ages) {
+    sum += ages[key];
+  }
+```
+
+---
+
+- To be clear, we could name our key anything and in fact, it would make more sense to name it something relevant to our object. In this case, that would be `name`.
+
+```jsx
+for (let name in ages) {
+    sum += ages[name];
+  }
+```
 
 ---
 <a name="q12"/></a>
