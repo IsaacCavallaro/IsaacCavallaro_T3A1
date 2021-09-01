@@ -1208,6 +1208,84 @@ for (let name in ages) {
   }
 ```
 
+## Delete Property from an Object
+
+- We can use the **delete operator** to delete a property from an object.
+- If we continue with the example **ages** object:
+
+```jsx
+let ages = {
+    Ben: 20,
+    Sam: 16,
+    Matt: 13
+  };
+```
+
+---
+
+- We can first log our key **Ben** to the console to see its value:
+
+```jsx
+console.log(ages.Ben) // 20
+```
+
+---
+
+- Next we can use the `delete` operator on the **Ben** property to remove it from our **ages** object:
+
+```jsx
+delete ages.Ben;
+```
+
+---
+
+- Finally, we can test to see if **Ben** has been deleted by logging the **ages** object to the console
+
+```jsx
+console.log(ages)
+```
+
+---
+
+- This will return to the console our manipulated object:
+
+```bash
+{ Sam: 16, Matt: 13 }
+```
+
+---
+
+## Adding Property to an Object
+
+- Assuming that the objects already exists, we can adding new properties by assigning them a value.
+- If we continue with our manipulate **ages** object:
+
+```bash
+{ Sam: 16, Matt: 13 }
+```
+
+---
+
+- We can add **Ben** back to our **ages** object with the following code (this time making Ben 24 instead of 20 so we can see the difference):
+
+```jsx
+ages.Ben = 24
+```
+
+---
+
+- Now if we log our **ages** object to the console:
+
+```jsx
+console.log(ages)
+```
+
+- We will see our manipulated object:
+
+```bash
+{ Sam: 16, Matt: 13, Ben: 24 }
+```
+
 ---
 <a name="q12"/></a>
 # Q12: Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
