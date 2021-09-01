@@ -1287,6 +1287,52 @@ console.log(ages)
 ```
 
 ---
+
+## Combining two Objects with `Object.assign`
+
+- In Javascript, we can use the `Object.assign` method to combine two objects.
+
+---
+
+- First, let's declare two simple objects with two properties:
+
+```jsx
+let object1 = { a: 1, b: 2 };
+let object2 = { c: 3, d: 4 };
+```
+
+---
+
+- Next, we use the `Object.assign` method and pass our two objects:
+
+```jsx
+Object.assign(object1, object2)
+```
+
+---
+
+- Then we set this as the value to a new variable:
+
+```jsx
+let combineObject = Object.assign(object1, object2);
+```
+
+---
+
+- We can then log this to the console:
+
+```jsx
+console.log(combineObject)
+```
+
+---
+
+- And we will have a new object which is the combination of both object1 and object2
+
+```bash
+{ a: 1, b: 2, c: 3, d: 4 }
+```
+
 <a name="q12"/></a>
 # Q12: Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
 

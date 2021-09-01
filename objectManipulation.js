@@ -47,20 +47,27 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 
-let ages = {
-    Ben: 20,
-    Sam: 16,
-    Matt: 13
-  };
+// let ages = {
+//     Ben: 20,
+//     Sam: 16,
+//     Matt: 13
+//   };
 
-console.log(ages.Ben)
+// console.log(ages.Ben)
 
-delete ages.Ben;
+// delete ages.Ben;
 
-console.log(ages)
+// console.log(ages)
 
-ages.Ben = 24
+// ages.Ben = 24
 
-console.log(ages)
+// console.log(ages)
 
 ////////////////////////////////////////////////////////////////////////////////
+
+let object1 = { a: 1, b: 2 };
+let object2 = { c: 3, d: 4 };
+
+let combineObject = Object.assign(object1, object2);
+
+console.log(combineObject)
