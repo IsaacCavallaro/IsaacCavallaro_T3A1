@@ -530,6 +530,121 @@ console.log(Number.MAX_SAFE_INTEGER)    //9007199254740991
 console.log(Number.MIN_SAFE_INTEGER)    //-9007199254740991
 ```
 
+## BigInt
+
+- In JavaScript, the BigInt type was added to represent integers of arbitrary length.
+- A BigInt value is created by appending n to the end of an integer:
+
+```jsx
+// the "n" at the end means it's a BigInt
+const bigInt = 1234567890123456789012345678901234567890n;
+```
+
+---
+
+## Boolean
+
+- In JavaSciprt, the datatype `boolean` consists of two values:
+    - true and false.
+
+```jsx
+let a = true; 
+let b = false; 
+
+if (a == true) {
+	console.log("a is true")
+}
+```
+
+---
+
+## Null
+
+- In JavaScript, `null` a special value which represents “nothing”, “empty” or “value unknown”.
+
+```jsx
+let a = null;
+```
+
+- Therefore, the code above, `a` has been initialized as "nothing, "empty" or "value unknown".
+
+---
+
+## Undefined
+
+- In Javascript, undefined refers to when a variable is declared, but not assigned.
+
+```jsx
+let a
+console.log(a) //undefined
+```
+
+---
+
+## String
+
+---
+
+## Objects
+
+- An object is an unordered collection of key-value pairs. In JavaScript, each key-value pair is referred to as a property:
+
+---
+
+- We can create an object using the object literal syntax:
+
+```jsx
+let person = {};
+```
+
+---
+
+- We can then add properties to the object:
+
+```jsx
+let person = {firstName:"Isaac", lastName:"Cavallaro", age:31};
+```
+
+---
+
+- Now the `person` variable contains an object with three properties:
+    - firstName
+    - lastName
+    - age
+
+---
+
+- We can return the whole object to the console:
+
+```jsx
+console.log(person)
+```
+
+---
+
+- This will return our object to the console:
+
+```bash
+{ firstName: 'Isaac', lastName: 'Cavallaro', age: 31 }
+```
+
+---
+
+- We can log the value associated with a key (firstName for eg):
+
+```jsx
+console.log(person.firstName)
+```
+
+---
+
+- This will return the value associated with the key firstName in our console:
+
+```bash
+Isaac
+```
+
+
 [https://blog.devgenius.io/what-are-the-eight-data-types-of-javascript-3819b38c8e53](https://blog.devgenius.io/what-are-the-eight-data-types-of-javascript-3819b38c8e53)
 
 [https://javascript.info/types](https://javascript.info/types)

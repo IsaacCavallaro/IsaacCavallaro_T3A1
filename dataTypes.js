@@ -37,3 +37,11 @@
 
 // let a
 // console.log(a)
+
+
+////////--Objects--/////////
+
+let person = {firstName:"Isaac", lastName:"Cavallaro", age:31};
+
+console.log(person)
+console.log(person.firstName)
