@@ -644,12 +644,36 @@ console.log(person.firstName)
 Isaac
 ```
 
+## Creating a Object with the `new` keyword:
 
-[https://blog.devgenius.io/what-are-the-eight-data-types-of-javascript-3819b38c8e53](https://blog.devgenius.io/what-are-the-eight-data-types-of-javascript-3819b38c8e53)
+- Another way to create an object is to use the `new` keyword.
 
-[https://javascript.info/types](https://javascript.info/types)
+```jsx
+let person = new Object();
+```
 
-[https://www.programiz.com/javascript/data-types](https://www.programiz.com/javascript/data-types)
+---
+
+- We can then populate the object by assigning a value to a key:
+
+```jsx
+person.firstName = "Ben";
+```
+
+---
+
+- We can then log the object to the console:
+
+```jsx
+console.log(person)
+```
+
+- The will return out object in the console:
+
+```bash
+{ firstName: 'Ben' }
+```
+
 
 ![DataTypesList](./images/dataTypes.png)
 
@@ -1581,3 +1605,9 @@ for (model of models) {
 [https://levelup.gitconnected.com/understanding-javascript-coercion-in-a-dynamically-typed-language-8807d6331fa2](https://levelup.gitconnected.com/understanding-javascript-coercion-in-a-dynamically-typed-language-8807d6331fa2)
 
 [https://www.edureka.co/blog/data-types-in-javascript/](https://www.edureka.co/blog/data-types-in-javascript/)
+
+[https://blog.devgenius.io/what-are-the-eight-data-types-of-javascript-3819b38c8e53](https://blog.devgenius.io/what-are-the-eight-data-types-of-javascript-3819b38c8e53)
+
+[https://javascript.info/types](https://javascript.info/types)
+
+[https://www.programiz.com/javascript/data-types](https://www.programiz.com/javascript/data-types)

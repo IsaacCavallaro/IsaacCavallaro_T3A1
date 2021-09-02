@@ -41,7 +41,15 @@
 
 ////////--Objects--/////////
 
-let person = {firstName:"Isaac", lastName:"Cavallaro", age:31};
+// let person = {firstName:"Isaac", lastName:"Cavallaro", age:31};
+
+// console.log(person)
+// console.log(person.firstName)
+
+////////////////////////////////
+
+let person = new Object();
+
+person.firstName = "Ben";
 
 console.log(person)
-console.log(person.firstName)
