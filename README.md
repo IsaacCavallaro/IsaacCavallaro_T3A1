@@ -446,17 +446,119 @@ let a = 6;
 
 - Rather, JavaScript will create a new variable `a` with the number 6 assigned to its value.
 
+
 ---
 
 ### Non Primitive Data types in JavaScript
 
 - In JavaScript, non-primitive types are objects.
+- In other words, anything that is not a primitive value is an object.
+- This includes: object, arrays, functions and more.
+--- 
+## Passing by value
+
+- In JavaScript, **passing by value** refers to the copying of the value created every time you assign a value to a variable.
 
 ---
 
-"Whenever we refer to an object, we refer to an address in memory which contains the key-value pair. If we assign an object ‘object1’ to another object ‘object2’, we are actually assigning the address of ‘object1’ to ‘object2’ instead of the key-value pair which the ‘object1’ contains in memory. Let’s see below”.
+### For example:
 
-"When we compare two objects, we compare their addresses, not their values."
+```jsx
+let a = 1;
+let b = a;
+
+b = b + 2;
+
+console.log(a); // 1
+console.log(b); // 3
+```
+
+---
+
+- First, we declare a variable `a` and set its value to the number 1
+
+```jsx
+let a = 1;
+```
+
+---
+
+- Next, we declare a variable `b` and set its value to the variable `a` (which is currently 1).
+- This is **passing by value.**
+
+---
+
+- Next, we re-assign the value of `b` to equal `b` + 2.
+
+```jsx
+b = b + 2;
+```
+
+---
+
+- When we log these to the console, we can see that `b` has been affected but `a` has not been affected.
+
+```jsx
+console.log(a); // 1
+console.log(b); // 3
+```
+
+---
+
+## Passing by reference
+
+- In Javascript, whenever you create an object, you’re given a reference to that object.
+- Therefore, if two variables hold the same reference, any changes made to the object will be reflected in both variables.
+
+---
+
+### For example:
+
+```jsx
+let x = [1];
+let y = x;
+
+y.push(2);
+
+console.log(x); // [1, 2]
+console.log(y); // [1, 2]
+```
+
+---
+
+- First we declare a variable `x` and set it to equal an array containing the number 1.
+
+```jsx
+let x = [1];
+```
+
+---
+
+- Next, we declare a variable `y` and set its value to be `x`.
+
+```jsx
+let y = x;
+```
+
+---
+
+- Finally, we use the `push` method to add the number 2 to our `y` array.
+
+```jsx
+y.push(2);
+```
+
+---
+
+- Importantly, given the `x` and `y` variables reference the same array, any changes made are  reflected in both variables.
+
+```bash
+console.log(x); // [1, 2]
+console.log(y); // [1, 2]
+```
+
+
+
 
 ---
 
@@ -1199,6 +1301,9 @@ console.log(names.map(name => name.toUpperCase()))
 
 <a name="q11"/></a>
 # Q11: Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+## Link to Object manipulation code:
+- click [here](https://github.com/IsaacCavallaro/IsaacCavallaro_T3A1/blob/main/objectManipulation.js) for the object manipulation code.
 
 ## `for in` loop with Objects - Example One:
 
